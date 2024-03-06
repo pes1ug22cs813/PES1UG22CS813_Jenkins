@@ -4,7 +4,7 @@ Open with Google Docs
 stages {
 stage('Build') {
 steps {
-build 'PES1ug22cs813-1'
+build 'PES1UG22CS813-1'
 sh 'g++ main.cpp -o output'
 }
 }
