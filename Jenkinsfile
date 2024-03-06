@@ -1,6 +1,5 @@
 pipeline {
 agent any
-Open with Google Docs
 stages {
 stage('Build') {
 steps {
