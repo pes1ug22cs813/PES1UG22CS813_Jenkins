@@ -4,7 +4,7 @@ stages {
 stage('Build') {
 steps {
 build 'PES1UG22CS813-1'
-sh 'g++ main.cpp -o output'
+sh 'g++ hello.cpp -o output'
 }
 }
 stage('Test') {
